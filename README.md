@@ -1,2 +1,6 @@
-# Creation-of-Dictionary--2
-should print dictionary which as odd keys only and their values multiplies by 10 ;n is input taken from user
+n=int(input())
+d={}
+for i in range(1,n+1):
+  if i%2!=0:
+    d[i]=i*10
+print(d)
